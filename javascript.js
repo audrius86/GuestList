@@ -15,6 +15,7 @@ document.querySelector("form").addEventListener("submit", (event) => {
   event.preventDefault();
 
   document.getElementById("guest-h1").style.visibility = "visible";
+  document.getElementById("guest-list").style.visibility = "visible";
 
   let newName = document.querySelector("input[name=inputName]").value;
 

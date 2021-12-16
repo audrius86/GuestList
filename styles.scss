@@ -63,8 +63,11 @@
   }
 
   #guest-list {
-    height: 330px;
+    // height: 330px;
     background-color: rgba(4, 161, 12, 0.3);
+
+    padding-bottom: 10px;
+    visibility: hidden;
 
     #guest-h1 {
       margin-left: 10px;
@@ -76,6 +79,7 @@
     ul {
       margin: 0 20px;
       padding-left: 20px;
+      padding-bottom: 5px;
       li {
         list-style: disc;
         color: rgb(148, 54, 0);
