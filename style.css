@@ -1,0 +1,87 @@
+.main-container {
+  width: 400px;
+  margin: 0 auto;
+  background-color: rgba(4, 161, 12, 0.1);
+}
+.main-container header {
+  margin: 0;
+  padding: 0;
+}
+.main-container header img {
+  width: 400px;
+}
+.main-container .main-section {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-container .main-section img {
+  width: 400px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+}
+.main-container .main-section #add {
+  width: 180px;
+  height: 60px;
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  top: 100px;
+}
+.main-container .main-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-container .main-section form #nameInput {
+  visibility: hidden;
+  margin-top: 30px;
+  padding: 20px 10px;
+  text-align: center;
+}
+.main-container .main-section form #save {
+  visibility: hidden;
+  margin-top: 30px;
+  width: 100px;
+  height: 30px;
+  color: blue;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.main-container #guest-list {
+  height: 330px;
+  background-color: rgba(4, 161, 12, 0.3);
+}
+.main-container #guest-list #guest-h1 {
+  margin-left: 10px;
+  color: rgba(38, 0, 141, 0.8);
+  visibility: hidden;
+  padding-top: 10px;
+}
+.main-container #guest-list ul {
+  margin: 0 20px;
+  padding-left: 20px;
+}
+.main-container #guest-list ul li {
+  list-style: disc;
+  color: #943600;
+  font-size: 18px;
+  font-weight: bold;
+}
+.main-container #guest-list ul li::marker {
+  color: #4b0000;
+}
+.main-container footer {
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */
